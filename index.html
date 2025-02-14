@@ -3,9 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>mon super sit web</title>
+    <style>
+        fieldset{
+            background-color: bisque;
+        }
+        div +p{
+            color: brown;
+        }
+    </style>
 </head>
 <body>
-    <p> bonjour bienvenue</p>
+    <h1>conception de formulaire de saisir</h1>
+    <div>
+        <fieldset>
+            <legend>formulaire de saisir</legend>
+        </fieldset>
+    </div>
+    <label for="nom">nom</label>
+    <input type="text" id="nom" minlength="30" size="20" placeholder="nom">
+    <div>
+        <label for="prenom">prenom</label>
+        <input type="prenom" id="prenom">
+    </div>
+    <div >
+        <label for="date de naissance"> date de naissance</label>
+        <input type="date" id="date de naissance">
+    </div>
+    <div>
+        <label for="Homme">Homme</label>
+        <input type="radio" name="radio1" id="H">
+
+    </div>
+    <div>
+        <label for="Femme">Femme</label>
+        <input type="radio" name="radio1" id="F">
+
+    </div>
+    <diV>
+        <label for="email">email</label>
+        <input type="email" id="email" size="30" minlength="50">
+    </diV>
+    <div>
+        <label for="CV">CV</label>
+        <input type="file" id="CV">
+
+    </div>
+    <div>
+        <p>piece d'identité</p>
+    </div>
+    <div>
+        <label for="piece resto">piece resto</label>
+        <input type="file" id="piece resto">
+    </div>
+    <div>
+        <label for="piece vesto">piece vesto</label>
+        <input type="file" id="piece vesto">
+    </div>
+    <DIV>
+        <label for="biplome">diplome</label>
+        <input type="file" id="diplome">
+    </DIV>
+    <diV>
+        <p>inserer l'un des pieces des parents</p>
+    </diV>
+    <div>
+        <label for="fichier">fichier</label>
+        <input type="file" id="fichier">
+    </div>
+    <div>
+        <input type="submit" value="soumettre">
+    </div>
+    <div>
+        <input type="reset" value="renitialiser">
+    </div>
+
+    
 </body>
 </html>
